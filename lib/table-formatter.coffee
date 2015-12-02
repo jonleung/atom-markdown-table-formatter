@@ -104,7 +104,7 @@ class TableFormatter
       [first, ..., last] = cell.trim()
       switch ends = (first ? ':') + (last ? '')
         when '::', '-:' then ends
-        else ':-'
+        else '--'
 
     columns = justify.length
 
